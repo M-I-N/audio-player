@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		AF4CE2F61F6B920100313E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CE2F51F6B920100313E6B /* AppDelegate.swift */; };
-		AF4CE2F81F6B920100313E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CE2F71F6B920100313E6B /* ViewController.swift */; };
 		AF4CE2FB1F6B920100313E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE2F91F6B920100313E6B /* Main.storyboard */; };
 		AF4CE2FD1F6B920100313E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE2FC1F6B920100313E6B /* Assets.xcassets */; };
 		AF4CE3001F6B920100313E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE2FE1F6B920100313E6B /* LaunchScreen.storyboard */; };
+		AF4CE3081F6B932900313E6B /* PlayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CE3071F6B932900313E6B /* PlayListTableViewController.swift */; };
+		AF4CE3141F6B962900313E6B /* Best Coast - The Only Place (The Only Place).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE30A1F6B962900313E6B /* Best Coast - The Only Place (The Only Place).mp3 */; };
+		AF4CE3151F6B962900313E6B /* Best Coast - The Only Place (The Only Place).png in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE30B1F6B962900313E6B /* Best Coast - The Only Place (The Only Place).png */; };
+		AF4CE3161F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE30C1F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).jpg */; };
+		AF4CE3171F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE30D1F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).mp3 */; };
+		AF4CE3181F6B962900313E6B /* Motorama - Alps (Alps).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE30E1F6B962900313E6B /* Motorama - Alps (Alps).mp3 */; };
+		AF4CE3191F6B962900313E6B /* Motorama - Alps (Alps).png in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE30F1F6B962900313E6B /* Motorama - Alps (Alps).png */; };
+		AF4CE31A1F6B962900313E6B /* Nils Frahm - You (Screws Reworked).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE3101F6B962900313E6B /* Nils Frahm - You (Screws Reworked).mp3 */; };
+		AF4CE31B1F6B962900313E6B /* Nils Frahm - You (Screws Reworked).png in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE3111F6B962900313E6B /* Nils Frahm - You (Screws Reworked).png */; };
+		AF4CE31C1F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE3121F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).jpg */; };
+		AF4CE31D1F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AF4CE3131F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).mp3 */; };
+		AF4CE31F1F6B995300313E6B /* CustomAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CE31E1F6B995300313E6B /* CustomAudioPlayer.swift */; };
+		AF4CE3211F6BDBDC00313E6B /* PlayListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4CE3201F6BDBDC00313E6B /* PlayListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AF4CE2F21F6B920100313E6B /* AudioPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4CE2F51F6B920100313E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF4CE2F71F6B920100313E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF4CE2FA1F6B920100313E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4CE2FC1F6B920100313E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4CE2FF1F6B920100313E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF4CE3011F6B920100313E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF4CE3071F6B932900313E6B /* PlayListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayListTableViewController.swift; sourceTree = "<group>"; };
+		AF4CE30A1F6B962900313E6B /* Best Coast - The Only Place (The Only Place).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Best Coast - The Only Place (The Only Place).mp3"; sourceTree = "<group>"; };
+		AF4CE30B1F6B962900313E6B /* Best Coast - The Only Place (The Only Place).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Best Coast - The Only Place (The Only Place).png"; sourceTree = "<group>"; };
+		AF4CE30C1F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Future Islands - Before the Bridge (On the Water).jpg"; sourceTree = "<group>"; };
+		AF4CE30D1F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Future Islands - Before the Bridge (On the Water).mp3"; sourceTree = "<group>"; };
+		AF4CE30E1F6B962900313E6B /* Motorama - Alps (Alps).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Motorama - Alps (Alps).mp3"; sourceTree = "<group>"; };
+		AF4CE30F1F6B962900313E6B /* Motorama - Alps (Alps).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Motorama - Alps (Alps).png"; sourceTree = "<group>"; };
+		AF4CE3101F6B962900313E6B /* Nils Frahm - You (Screws Reworked).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Nils Frahm - You (Screws Reworked).mp3"; sourceTree = "<group>"; };
+		AF4CE3111F6B962900313E6B /* Nils Frahm - You (Screws Reworked).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nils Frahm - You (Screws Reworked).png"; sourceTree = "<group>"; };
+		AF4CE3121F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).jpg"; sourceTree = "<group>"; };
+		AF4CE3131F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).mp3"; sourceTree = "<group>"; };
+		AF4CE31E1F6B995300313E6B /* CustomAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAudioPlayer.swift; sourceTree = "<group>"; };
+		AF4CE3201F6BDBDC00313E6B /* PlayListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +79,33 @@
 			isa = PBXGroup;
 			children = (
 				AF4CE2F51F6B920100313E6B /* AppDelegate.swift */,
-				AF4CE2F71F6B920100313E6B /* ViewController.swift */,
+				AF4CE3071F6B932900313E6B /* PlayListTableViewController.swift */,
+				AF4CE31E1F6B995300313E6B /* CustomAudioPlayer.swift */,
+				AF4CE3201F6BDBDC00313E6B /* PlayListTableViewCell.swift */,
 				AF4CE2F91F6B920100313E6B /* Main.storyboard */,
 				AF4CE2FC1F6B920100313E6B /* Assets.xcassets */,
 				AF4CE2FE1F6B920100313E6B /* LaunchScreen.storyboard */,
 				AF4CE3011F6B920100313E6B /* Info.plist */,
+				AF4CE3091F6B962900313E6B /* PlaybackResources */,
 			);
 			path = AudioPlayerDemo;
+			sourceTree = "<group>";
+		};
+		AF4CE3091F6B962900313E6B /* PlaybackResources */ = {
+			isa = PBXGroup;
+			children = (
+				AF4CE30A1F6B962900313E6B /* Best Coast - The Only Place (The Only Place).mp3 */,
+				AF4CE30B1F6B962900313E6B /* Best Coast - The Only Place (The Only Place).png */,
+				AF4CE30C1F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).jpg */,
+				AF4CE30D1F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).mp3 */,
+				AF4CE30E1F6B962900313E6B /* Motorama - Alps (Alps).mp3 */,
+				AF4CE30F1F6B962900313E6B /* Motorama - Alps (Alps).png */,
+				AF4CE3101F6B962900313E6B /* Nils Frahm - You (Screws Reworked).mp3 */,
+				AF4CE3111F6B962900313E6B /* Nils Frahm - You (Screws Reworked).png */,
+				AF4CE3121F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).jpg */,
+				AF4CE3131F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).mp3 */,
+			);
+			path = PlaybackResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +140,13 @@
 				TargetAttributes = {
 					AF4CE2F11F6B920100313E6B = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 2BL4KQW6R5;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,9 +173,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4CE3141F6B962900313E6B /* Best Coast - The Only Place (The Only Place).mp3 in Resources */,
+				AF4CE31B1F6B962900313E6B /* Nils Frahm - You (Screws Reworked).png in Resources */,
+				AF4CE31A1F6B962900313E6B /* Nils Frahm - You (Screws Reworked).mp3 in Resources */,
+				AF4CE31D1F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).mp3 in Resources */,
+				AF4CE3171F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).mp3 in Resources */,
 				AF4CE3001F6B920100313E6B /* LaunchScreen.storyboard in Resources */,
+				AF4CE3191F6B962900313E6B /* Motorama - Alps (Alps).png in Resources */,
+				AF4CE3151F6B962900313E6B /* Best Coast - The Only Place (The Only Place).png in Resources */,
 				AF4CE2FD1F6B920100313E6B /* Assets.xcassets in Resources */,
 				AF4CE2FB1F6B920100313E6B /* Main.storyboard in Resources */,
+				AF4CE3181F6B962900313E6B /* Motorama - Alps (Alps).mp3 in Resources */,
+				AF4CE31C1F6B962900313E6B /* The Soul's Release - Catching Fireflies (Where the Trees Are Painted White).jpg in Resources */,
+				AF4CE3161F6B962900313E6B /* Future Islands - Before the Bridge (On the Water).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +196,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4CE2F81F6B920100313E6B /* ViewController.swift in Sources */,
 				AF4CE2F61F6B920100313E6B /* AppDelegate.swift in Sources */,
+				AF4CE31F1F6B995300313E6B /* CustomAudioPlayer.swift in Sources */,
+				AF4CE3081F6B932900313E6B /* PlayListTableViewController.swift in Sources */,
+				AF4CE3211F6BDBDC00313E6B /* PlayListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -260,10 +322,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2BL4KQW6R5;
 				INFOPLIST_FILE = AudioPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.AudioPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "52c26a88-f4e4-4be7-b501-9c9b6bdfdbae";
+				PROVISIONING_PROFILE_SPECIFIER = BJITWILDCARDDEV;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +337,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AudioPlayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.AudioPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
